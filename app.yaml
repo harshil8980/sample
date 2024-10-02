@@ -1,0 +1,5 @@
+runtime: python39  # or your chosen runtime
+handlers:
+  - url: /.*
+    static_files: simple.html
+    upload: simple.html
